@@ -9,9 +9,9 @@ def main():
     # This function prints all RGB numbers
 
     # Process
-    for red in range(0, 255):
-        for green in range(0, 255):
-            for blue in range(0, 255):
+    for red in range(0, 255 + 1):
+        for green in range(0, 255 + 1):
+            for blue in range(0, 255 + 1):
                 # Output
                 print("RGB({0},{1},{2})".format(red, green, blue))
 
